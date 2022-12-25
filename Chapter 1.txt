@@ -1,0 +1,26 @@
+Q1. What is Emmet
+A1. TODO
+
+Q2. Library v/s Framework
+A2. Library provides predefined functionalities that can be used to make work easier, use 1 out of many available in a module
+    Framework is a foundation/ base/ environment upon which things can be developed.
+
+Q3. CDN
+A3. Group of servers used for transfer of assests needed for loading content.
+
+Q4. React named React ?
+A4. Front end framework that react for view changes/user interference,hence the name
+    It reacts to the state changes and auto updates the DOM
+
+Q5. crossorigin
+A5. Requesting of resources from another domain - crossorigin
+
+Q6. React and ReactDOM
+A6. React is responsible for creating views, whereas ReactDOM is what load these views/ renderes in the browser
+
+Q7. Development v/s Production
+A7. Development files are bulkier and made for debugging and development purposes
+    Production files are minified, not easy for development purposes - size is less, code is not readable
+
+Q8. Async and Defer
+A8. TODO
