@@ -23,4 +23,8 @@ A7. Development files are bulkier and made for debugging and development purpose
     Production files are minified, not easy for development purposes - size is less, code is not readable
 
 Q8. Async and Defer
-A8. TODO
+A8. Normally html parsing is paused when it encounters a script tag and continues only after it completes script fetching and execution.
+    Async - Html parsing is paused only for executng the script, it fetches the script in parallel with html parsing.
+    Defer - Html parsing is not paused, rather the script is fetched in parallel and executed only after parsing is complete.
+
+    Note: Async doesnt guarantee ordeer in which the scripts would be executed in case of multiple scripts.
