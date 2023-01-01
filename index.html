@@ -7,6 +7,18 @@
     <title>Hello World</title>
 </head>
 <body>
-    Using HTML
+    <div id="root"></div>
+
+    <script>
+        const heading1 = document.createElement('h1');
+        heading1.innerHTML = "Hellio world";
+
+        const heading2 = document.createElement('h2');
+        heading2.innerHTML = "Ruxhir Gupta";
+
+        const root = document.getElementById('root');
+        root.appendChild(heading1);
+        root.appendChild(heading2);
+    </script>
 </body>
 </html>
