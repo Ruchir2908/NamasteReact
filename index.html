@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Ruxhir Reacts</title>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="root">Ye gayab ho jaayega agar sab sahi chala</div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
     <script>
-        const heading1 = document.createElement('h1');
-        heading1.innerHTML = "Hellio world";
+        const heading1 = React.createElement('h1', {}, 'Helllllio react world');
+        const heading2 = React.createElement('h2', {}, 'Ruchir Gupta');
 
-        const heading2 = document.createElement('h2');
-        heading2.innerHTML = "Ruxhir Gupta";
+        const container = React.createElement('div', {}, [heading1, heading2]);
 
-        const root = document.getElementById('root');
-        root.appendChild(heading1);
-        root.appendChild(heading2);
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(container);
     </script>
 </body>
 </html>
