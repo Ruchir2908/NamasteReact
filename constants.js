@@ -1,0 +1,1 @@
+export const LOGO_IMG_URL = "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_b81eff0b946add29a0eb9703df315a6e/foodzilla-platform.png";
