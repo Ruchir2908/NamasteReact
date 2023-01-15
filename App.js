@@ -7,10 +7,15 @@ const Title = () => {
 
 const Header = () => {
     return (
-        <div>
-            {<Title/>}
-            Testing Component Composition
-        </div>
+        <>
+            <div>
+                {<Title/>}
+            </div>
+
+            <div>
+                Testing Component Composition
+            </div>
+        </>
     );
 }
 
