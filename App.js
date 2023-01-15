@@ -1,9 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const JSXUse = () => {
-    return <h1>JSX used here in React</h1>
+const Title = () => {
+    return <h1>Ruchir Learning React</h1>;
+}
+
+const Header = () => {
+    return (
+        <div>
+            {<Title/>}
+            Testing Component Composition
+        </div>
+    );
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<JSXUse/>);
+root.render(<Header/>);
