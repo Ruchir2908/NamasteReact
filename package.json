@@ -1,0 +1,23 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruchir2908/NamasteReact.git"
+  },
+  "author": "Ruchir Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruchir2908/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/Ruchir2908/NamasteReact#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
