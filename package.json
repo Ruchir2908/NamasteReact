@@ -4,7 +4,9 @@
   "description": "",
   "main": "App.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "parcel index.html",
+    "build": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "babel": "^6.23.0",
     "process": "^0.11.10"
   }
 }
