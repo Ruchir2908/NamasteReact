@@ -1,23 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Body from "./Body";
+import Footer from "./Footer";
+import Header from "./Header";
 
-const Title = () => {
-    return <h1>Ruchir Learning React</h1>;
-}
-
-const Header = () => {
+const AppLayout = () => {
     return (
         <>
-            <div>
-                {<Title/>}
-            </div>
-
-            <div>
-                Testing Component Composition
-            </div>
+            <Header/>
+            <Body/>
+            <Footer/>
         </>
     );
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Header/>);
+root.render(<AppLayout/>);
